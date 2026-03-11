@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Praktikum PDW 3</title>
+    <style>
+        /* Mengatur agar konten berada tepat di tengah layar */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #1a73e8;
+            font-size: 24px;
+        }
+
+        #tanggal {
+            margin: 20px 0;
+            padding: 10px;
+            background: #e8f0fe;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        button {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #1557b0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Menampilkan Tanggal Dengan JavaScript</h1>
+        <div id="tanggal"></div>
+
+        <button onclick="tampil()">Try it</button>
+        <button onclick="show()">Perkenalan</button>
+    </div>
+
+    <script>
+        // Alert internal sesuai instruksi modul [cite: 187]
+        alert("Ini sebuah alert");
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
